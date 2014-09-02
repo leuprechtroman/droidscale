@@ -39,8 +39,17 @@ voilà: All your icons, perfectly prepared!
 
 ##System Requirements:
 
+* Linux
 * Node.js > 0.10
 * Inkscape installed and available in your path (try `which inkscape`)
+
+##Installation
+
+Installation is easy with npm:
+
+Execute `sudo npm install -g droidscale`
+
+To have the command `droidscale` available everywhere
 
 ##Usage
 ```
@@ -79,6 +88,8 @@ For Example: If you want to replace *.tiff Files, and your command looks like th
 
 ##F.A.Q
 
+* Is it only Linux compatbile?
+  * For now. I just own a Linux Box, so I can't test more. If you want to port it to other platforms, I'd love to assist you. Or just file a pull-request with additional patches for porting
 * Is it possible to use another CLI than the inkscape one?
   * Yes! Just specify your command in the `commands` object, look at the Inkscape CLI as an example
 * Why do you use Inkscape and not ImageMagick?
