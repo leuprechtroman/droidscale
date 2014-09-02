@@ -12,7 +12,7 @@ Imagine your icon folder:
 ```
 icon_folder/
    finished_asset.svg
-````
+```
 But for Android Development, you'll need this asset in PNG Format and in 5 different sizes...
 
 Here DroidScale comes in:
