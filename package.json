@@ -1,0 +1,36 @@
+{
+  "name": "droidscale",
+  "version": "0.9.3",
+  "author": "Roman Leuprecht",
+  "license": "MIT",
+  "description": "Fast Android Asset Conversion",
+  "homepage": "https://github.com/leuprechtroman/droidscale",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leuprechtroman/droidscale.git"
+  },
+  "keywords": [
+    "android",
+    "asset",
+    "svg",
+    "png",
+    "conversion"
+  ],
+  "engines": {
+      "node": ">=0.10"
+  },
+  "dependencies": {
+      "commander": "*",
+      "cli-color": "*",
+      "shelljs": "*",
+      "progress": "*",
+      "async": "*"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/leuprechtroman/droidscale/issues"
+  },
+  "bin": {
+    "droidscale": "./droidscale.js"
+  }
+}
